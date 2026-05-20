@@ -5,10 +5,8 @@ st.write('바이브 코딩 재미있다!!')
 import os
 import shutil
 
-# 정리할 폴더 경로
-folder = "downloads"
 
-# 파일 종류별 폴더
+folder = "downloads"
 types = {
     "Images": [".png", ".jpg", ".jpeg", ".gif"],
     "Videos": [".mp4", ".mov"],
